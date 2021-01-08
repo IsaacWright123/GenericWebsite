@@ -1,0 +1,79 @@
+@keyframes headerColor {
+    0% { background-color: #c7000033; }
+    100% { background-color: #9e704233; }
+}
+
+
+
+body {
+  color: white;
+  font-family: 'Karla', sans-serif;
+  margin: 0px;
+}
+header {
+  align-items: center;
+  text-align: left;
+  flex-grow: 1;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/26/66/PeMl8z.jpg");
+  background-size: 100%;
+  background-position: top right;
+}
+.header-wrap {
+    flex-grow: 1;
+    background-image: linear-gradient(to bottom, #ffffff00 50%, #ffffff00, #151830);
+    background-color: #151830;
+    background-size: 100%;
+    box-shadow: inset 0 0 100vmax #00000044;
+    height: 100%;
+    margin: 0px;
+    padding-bottom: 30%;
+    animation: headerColor 10s infinite reverse;
+}
+.nav-bar {
+  flex-grow: 1;
+  background-color: #1a1e4299;
+  border-bottom: 5px solid #151830;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.navigation {
+  padding-inline-start: 0px !important;
+}
+.navigation li {
+  display: inline;
+  padding-top: 40px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-bottom: 28px;
+  font-weight: bold;
+  color: #f3f2f9df;
+  font-size: 20px;
+  transition: 0.2s ease-in-out;
+  flex-grow: 1;
+}
+.navigation li:hover {
+  color: #fafaff;
+  background-color: #3a3e6290;
+  font-size: 22px;
+}
+#login li {
+  position: absolute;
+  right: 10px;
+  top: -5px;
+  display: inline;
+  text-align: right;
+  padding-top: 40px;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-bottom: 28px;
+  font-weight: bold;
+  color: #f3f2f9df;
+  font-size: 14px;
+  transition: 0.2s ease-in-out;
+  flex-grow: 1;
+}
+#login li:hover {
+  color: #fafaff;
+}

@@ -1,0 +1,13 @@
+.content-wrap {
+  background-color: #151830;
+  padding: 10px
+}
+.column {
+  flex: 50%;
+}
+.content {
+  text-align: center;
+  padding: 20px;
+  width: 95%;
+  margin: 10px;
+	}

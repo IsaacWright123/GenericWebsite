@@ -30,6 +30,7 @@ header {
   border-bottom: 5px solid #151830;
   padding-top: 4px;
   padding-bottom: 4px;
+  overflow: hidden;
 }
 .navigation {
   padding-inline-start: 0px !important;

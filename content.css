@@ -5,9 +5,37 @@
 .column {
   flex: 50%;
 }
+.button {
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  left: 68%;
+  border-radius: 6px;
+  background-color: #06c643;
+  color: #f3f2f9df;
+  padding: 10px;
+  transition: background-color 0.2s ease;
+}
+.button:hover {
+  background-color: #06d653ca;
+}
 .content {
-  text-align: center;
   padding: 20px;
   width: 95%;
   margin: 10px;
+  color: #eb880f;
 	}
+.content-box {
+  border: 2px solid #7461d4;
+  background-color: #100550;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 4px;
+}
+.announcement {
+  display: flex;
+  font-size: 30px;
+  padding: 20px;
+  padding-left: 50px;
+  text-align: left;
+}

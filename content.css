@@ -1,5 +1,10 @@
+:root {
+  --bgc: #151826;
+}
+
+
 .content-wrap {
-  background-color: #151830;
+  background-color: var(--bgc);
   padding: 10px
 }
 .column {
@@ -26,10 +31,10 @@
   color: #eb880f;
 	}
 .content-box {
-  border: 2px solid #7461d4;
-  background-color: #100550;
-  margin-left: 20%;
-  margin-right: 20%;
+  border: 2px solid #7171b4;
+  background-color: #110544;
+  margin-left: 16%;
+  margin-right: 16%;
   border-radius: 4px;
 }
 .announcement {

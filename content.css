@@ -1,5 +1,7 @@
 :root {
   --bgc: #151826;
+  --textc: #eb880f;
+  --textc2: #f3f2f9df;
 }
 
 
@@ -9,6 +11,13 @@
 }
 .column {
   flex: 50%;
+}
+a {
+  text-decoration:none;
+  color: inherit;
+}
+a:hover {
+  opacity: 0.85;
 }
 .button {
   font-size: 14px;
@@ -28,7 +37,7 @@
   padding: 20px;
   width: 95%;
   margin: 10px;
-  color: #eb880f;
+  color: var(--textc);
 	}
 .content-box {
   border: 2px solid #7171b4;

@@ -83,3 +83,36 @@ header {
   transform: scale(1.1);
   opacity: 0.8;
 }
+.header-message {
+  background-color: #ddddff33;
+  padding: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: var(--textc);
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.header-message cc1 {
+  color: var(--textc2);
+  font-weight: normal;
+  font-size: 18px;
+}
+.left {
+  position: absolute;
+  top: 160px;
+  left: 40px;
+  transition: all 0.2s ease;
+}
+.left:hover {
+  transform: scaleX(1.05) skew(-4deg);
+}
+.right {
+  position: absolute;
+  top: 160px;
+  right: 40px;
+  transition: all 0.2s ease;
+}
+.right:hover {
+  transform: scaleX(1.05) skew(-4deg);
+}

@@ -106,7 +106,7 @@ header {
   transition: all 0.2s ease;
 }
 .left:hover {
-  transform: scaleX(1.05) skew(-4deg);
+  transform: scaleX(1.05) skew(-1deg);
 }
 .right {
   position: absolute;
@@ -115,5 +115,5 @@ header {
   transition: all 0.2s ease;
 }
 .right:hover {
-  transform: scaleX(1.05) skew(-4deg);
+  transform: scaleX(1.05) skew(-1deg);
 }
